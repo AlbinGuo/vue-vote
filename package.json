@@ -1,6 +1,6 @@
 {
   "name": "vue-vote",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "this is vote component base on vue2.0.",
   "main": "index.js",
   "scripts": {
