@@ -1,13 +1,13 @@
 # vue-vote
 
-#### Description
-> Voting components based on vue2.0
+#### 介绍
+> 基于vue2+的投票组件
 
-#### Install
+#### 安装
 ```
 npm i vue-vote
 ```
-#### Usage
+#### 用法
 ```
 <template>
     <div id="app" class="container">
@@ -18,12 +18,12 @@ npm i vue-vote
 data(){
         return {
           options: {
-            question: "Vote for your favorite NBA team",
+            question: "为你心中NBA球队投票",
             answers: [
-              { value: 1, text: "Los Angeles Lakers", votes: 53 },
-              { value: 2, text: "Houston Rockets", votes: 295 },
-              { value: 3, text: "Minnesota Timberwolves", votes: 30 },
-              { value: 4, text: "New York Knicks", votes: 10 }
+              { value: 1, text: "洛杉矶湖人", votes: 53 },
+              { value: 2, text: "休斯敦火箭", votes: 295 },
+              { value: 3, text: "明尼苏达森林狼", votes: 30 },
+              { value: 4, text: "纽约尼克斯", votes: 10 }
             ]
           }
         }
@@ -35,6 +35,6 @@ data(){
     }
 ```
 
-#### The effect：
-![输入图片说明](https://images.gitee.com/uploads/images/2021/0930/153206_89fd8af9_1003280.png "屏幕截图.png")
-![输入图片说明](https://images.gitee.com/uploads/images/2021/0930/153216_32990900_1003280.png "屏幕截图.png")
+#### 效果展示：
+![输入图片说明](https://images.gitee.com/uploads/images/2021/0930/153300_39af887b_1003280.png "屏幕截图.png")
+![输入图片说明](https://images.gitee.com/uploads/images/2021/0930/144304_30c66e03_1003280.png "屏幕截图.png")
