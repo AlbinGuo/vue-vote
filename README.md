@@ -1,7 +1,7 @@
 # vue-vote
 
 #### Description
-> Voting components based on vue2+
+> vue-vote based on vue2+
 
 #### Install
 ```
