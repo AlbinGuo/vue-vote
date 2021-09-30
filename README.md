@@ -1,7 +1,9 @@
 # vue-vote
 
 #### Description
-> vue-vote based on vue2+
+> A Vue.js component for creating polls, 
+>voting and showing results. It’s easy to implement and easy to customize.
+>It`s based on vue2+
 
 #### Install
 ```

@@ -1,6 +1,6 @@
 {
   "name": "vue-vote",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "this is vote component base on vue2.0.",
   "main": "index.js",
   "scripts": {
@@ -15,7 +15,10 @@
     "vote",
     "投票",
     "组件",
-    "component"
+    "component",
+    "poll",
+    "vue-poll",
+    "vue-vote"
   ],
   "author": "guonan",
   "license": "ISC"
