@@ -15,7 +15,7 @@ npm i vue-vote
 </template>
 ```
 
-```javascipt
+```javascript
 data(){
         return {
           options: {
