@@ -1,0 +1,20 @@
+{
+  "name": "vue-vote",
+  "version": "1.0.0",
+  "description": "this is vote component base on vue2.0.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitee.com/guonan01/vue-vote.git"
+  },
+  "keywords": [
+    "vue",
+    "vote",
+    "投票"
+  ],
+  "author": "guonan",
+  "license": "ISC"
+}
