@@ -1,12 +1,12 @@
-import Vote from './components/Vote'
+import Vote from './components/Vote.vue'
 
 const components = [Vote]
 
-module.exports = {
-  install: function(Vue, options) {
-    components.forEach(item => {
-      console.log(item.name)
-      app.component(item.name, item)
-    })
+export default {
+  install: function(app, options) {
+    app.component("vue-vote", Vote);
+	components.forEach(item => {
+		app.component(item.name, item)
+	})
   }
 }
