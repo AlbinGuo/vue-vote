@@ -1,36 +1,39 @@
 # vue-vote
 
 #### Description
-{**When you're done, you can delete the content in this README and update the file with details for others getting started with your repository**}
+> Voting components based on vue2.0
 
-#### Software Architecture
-Software architecture description
+#### Install
+```
+npm i vue-vote
+```
+#### Usage
+```
+<template>
+    <div id="app" class="container">
+      <vue-vote v-bind="options" @addvote="addVote"></vue-vote>
+    </div>
+</template>
 
-#### Installation
+data(){
+        return {
+          options: {
+            question: "Vote for your favorite NBA team",
+            answers: [
+              { value: 1, text: "Los Angeles Lakers", votes: 53 },
+              { value: 2, text: "Houston Rockets", votes: 295 },
+              { value: 3, text: "Minnesota Timberwolves", votes: 30 },
+              { value: 4, text: "New York Knicks", votes: 10 }
+            ]
+          }
+        }
+    },
+    methods: {
+      addVote(obj) {
+        console.log("You voted " + obj.value + "!");
+      },
+    }
+```
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### Instructions
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### Contribution
-
-1.  Fork the repository
-2.  Create Feat_xxx branch
-3.  Commit your code
-4.  Create Pull Request
-
-
-#### Gitee Feature
-
-1.  You can use Readme\_XXX.md to support different languages, such as Readme\_en.md, Readme\_zh.md
-2.  Gitee blog [blog.gitee.com](https://blog.gitee.com)
-3.  Explore open source project [https://gitee.com/explore](https://gitee.com/explore)
-4.  The most valuable open source project [GVP](https://gitee.com/gvp)
-5.  The manual of Gitee [https://gitee.com/help](https://gitee.com/help)
-6.  The most popular members  [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+#### The effect：
+![输入图片说明](https://images.gitee.com/uploads/images/2021/0930/144304_30c66e03_1003280.png "屏幕截图.png")
