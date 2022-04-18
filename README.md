@@ -1,9 +1,17 @@
-# vue-vote
+<h1 align="center">
+Vue-vote
+</h1>
+<p align="center">
+Vue-vote is a voting component based on Vue2.5
+<p>
+<p align="center">
+  <a href="https://www.npmjs.com/package/vitest"><img src="https://img.shields.io/npm/v/vue-vote?color=729B1B&label="></a>
+<p>
 
 #### Description
-> A Vue.js component for creating polls, 
->voting and showing results. It’s easy to implement and easy to customize.
->It`s based on vue2+
+A Vue.js component for creating polls, 
+voting and showing results. It’s easy to implement and easy to customize.
+It`s based on vue2+
 
 #### Install
 ```
