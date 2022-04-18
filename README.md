@@ -5,7 +5,7 @@ Vue-vote
 Vue-vote is a voting component based on Vue2.5
 <p>
 <p align="center">
-  <a href="https://www.npmjs.com/package/vitest"><img src="https://img.shields.io/npm/v/vue-vote?color=729B1B&label="></a>
+  <a href="https://www.npmjs.com/package/vue-vote"><img src="https://img.shields.io/npm/v/vue-vote?color=729B1B&label="></a>
 <p>
 
 #### Description
